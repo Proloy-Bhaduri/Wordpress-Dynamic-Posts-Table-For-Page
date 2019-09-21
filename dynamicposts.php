@@ -1,7 +1,7 @@
 <?php
 #Copyrighted to Proloy Bhaduri
 # Author : Proloy Bhaduri
-#License : Apache 2.0 Open License
+#License : Apache License ,Version 2.0
 function catposts_shortcode( $atts ) {
    $a = shortcode_atts( array(
       'cat-name' => 'world'
