@@ -21,11 +21,13 @@ function catposts_shortcode( $atts ) {
   <?php if ( $catpost_query->have_posts() ) {
     while ( $catpost_query->have_posts() ) {
         $catpost_query->the_post();
-         if(get_the_date('a')=='পূর্বাহ্ন' || get_the_date('A')=='পূর্বাহ্ন')
-         $apm= 'AM';
-        else 
-        $apm = 'PM'; 
-    
+         if(get_locale()=='bn_IN' || get_locale() == 'bn_BD')    
+        {
+	  if(get_the_date('a')=='পূর্বাহ্ন' || get_the_date('A')=='পূর্বাহ্ন')
+           $apm= 'AM';
+         else 
+          $apm = 'PM'; 
+	 }
        echo '
           <tr>
             <td>'.get_the_date('F jS,Y,l | g:i').' '.$apm.'</td>
