@@ -5,7 +5,6 @@ function catposts_shortcode( $atts ) {
    ), $atts );
    $catpost_query = new WP_Query(array('category_name'=>$a['cat-name'],));
     $num = $catpost_query->found_posts;?>
-    <!--<ul class="collection">-->
      <table class="striped centered">
         <thead>
           <tr>
@@ -34,7 +33,6 @@ function catposts_shortcode( $atts ) {
 }  ?>
  </tbody>
       </table>
-<!--</ul>-->
 <?php	wp_reset_postdata();
 }
 add_shortcode( 'catposts', 'catposts_shortcode' );
