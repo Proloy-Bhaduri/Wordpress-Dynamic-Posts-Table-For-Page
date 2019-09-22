@@ -28,6 +28,8 @@ function catposts_shortcode( $atts ) {
          else 
           $apm = 'PM'; 
 	 }
+	else
+             $apm = get_the_date('A');	
        echo '
           <tr>
             <td>'.get_the_date('F jS,Y,l | g:i').' '.$apm.'</td>
