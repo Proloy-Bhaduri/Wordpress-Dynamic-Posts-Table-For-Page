@@ -6,7 +6,7 @@ Wordpress Dynamic Posts Table is an wordpress plugin where bloggers can list the
 <h6>Dependencies</h6>
  to get striped and centered table include <pre>materializecss.min.css</pre> to the head  of your page .
  To enable the shortcode goto the <b>functions.php</b> of your theme and add this code <pre>include( get_stylesheet_directory() . '/shortcode.php' );</pre> <br>
- upload this <b>shortcode.php</b> file to root folder of your website's currently active theme  .
+ upload this <b>dynamicposts.php</b> file to root folder of your website's currently active theme  .
 Note:<code>post-category-name</code>must be replaced with the desired common category name .
 e.g., we added the shortcode <pre>[catposts cat-name="IR"]</pre><br>
 <img src="https://i.ibb.co/2P7Nbvr/snap.png" alt="snap" border="0"><br>
