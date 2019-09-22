@@ -12,5 +12,5 @@ e.g., we added the shortcode <pre>[catposts cat-name="IR"]</pre><br>
 <img src="https://i.ibb.co/2P7Nbvr/snap.png" alt="snap" border="0"><br>
 and got the display as below, <br><br>
 <img src="https://i.ibb.co/6w8Psyh/snap-4.jpg" alt="snap-4" border="0"><br><br>
-<h4>NOTE:</h4> With the increase of the posts in a particular category the table rows will be generated dynamically, displaying specific post data.
-
+<h4>NOTE:</h4> With the increase of the posts in a particular category the table rows will be generated dynamically, displaying specific post data as shown below &ldsh;<br><br>
+<img src="https://i.ibb.co/dWbbHrj/snap-5.png" alt="snap-5" border="0">
