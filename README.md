@@ -23,7 +23,7 @@ and got the display as below, <br><br>
  <td>Not Set</td>
  </tr>';
 ```
-
+ By the below code -->
 ```php
  ';?> <td>//start 
   <?php  
@@ -35,6 +35,7 @@ and got the display as below, <br><br>
   ?></td>
   <?php echo '</tr>'; //end 
 ```  
-                                                            <h1> &#10084; Cheers !</h1>
+
+   <h1> &#10084; Cheers !</h1>
     
          
