@@ -35,7 +35,6 @@ and got the display as below, <br><br>
   ?></td>
   <?php echo '</tr>'; //end 
 ```  
-	
-	```
+                                                            <h1> &#10084; Cheers !</h1>
     
          
