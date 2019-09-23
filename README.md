@@ -18,17 +18,17 @@ and got the display as below, <br><br>
 <img src="https://i.ibb.co/ggbWkkT/snap-6.png" alt="snap-6" border="0">
 <h3>Adding Custom Field Data to the last column of the table:</h3>
  <b>Replace the code</b>
- ```html
+ ```
  <pre> <code>
  <td>Not Set</td>
  </tr>';
- ```
+
  </code></pre>
  
  with the below code
 <pre><br><code>
- ```html
  ';?> <td>//start 
+	```
 	<?php 
 	 $custom = get_post_custom();
 	if(isset($custom['YOUR-CUSTOM-FIELD-NAME'])) 
@@ -37,7 +37,7 @@ and got the display as below, <br><br>
              echo 'Not Set';
 		?></td>
          <?php echo '</tr>'; //end 
-	 ```
-	 <br></code></pre><br>
-         <h1>&#10084</h1>&nbsp; Everything is set and and whenever you publish a new post with a particular category .... the post data [including custom field (if added)] will be dispalyed in the table as shown in screenshot <b>4</b>...
+	
+	<br></code></pre><br>
+    
          
