@@ -2,7 +2,8 @@
 Wordpress Dynamic Posts Table is an wordpress plugin using which bloggers can list posts for their job/news portal in a customized manner.
 <h4>How to use </h4>
 <pre><center>[catposts cat-name="post-category-name"]</center></pre>
-<p>The above shortcode should be added to the page,where you want to display posts from a particular category say <i><b>Sports</b></i> in a news portal</p>
+<p>The above shortcode should be added to the page,where you want to display posts from a particular category say <b>Sports</b> in a news portal</p>
+<pre><center>[catposts cat-name="Sports"]</center></pre>
 <h6>Dependencies</h6>
  to get striped and centered table include <pre>materializecss.min.css</pre> to the head  of your page .
  To enable the shortcode goto the <b>functions.php</b> of your theme and add this code <pre>include( get_stylesheet_directory() . '/dynamicposts.php' );</pre> <br>
