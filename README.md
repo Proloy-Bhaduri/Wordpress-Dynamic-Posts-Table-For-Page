@@ -17,10 +17,10 @@ and got the display as below, <br><br>
 <h6>Final Screenshot => dynamically displaying posts with last date taken from custom field </h6>
 <img src="https://i.ibb.co/ggbWkkT/snap-6.png" alt="snap-6" border="0">
 <h3>Adding Custom Field Data to the last column of the table:</h3>
- <b>Replace the code <pre><code>
+ <b>Replace the code</b> <code>
  <td>Not Set</td>
  </tr>';
- </code></pre></b>
+ </code>
  with the below code
 <pre><br><code>
  ';?> <td>//start 
