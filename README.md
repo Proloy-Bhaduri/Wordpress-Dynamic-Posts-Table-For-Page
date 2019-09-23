@@ -1,5 +1,5 @@
 <h1> Wordpress Dynamic Posts Table For Page</h1>
-Wordpress Dynamic Posts Table is an wordpress plugin where bloggers can list their posts for their job portal or news portal in a customized manner.
+Wordpress Dynamic Posts Table is an wordpress plugin using which bloggers can list posts for their job/news portal in a customized manner.
 <h4>How to use </h4>
 <pre><center>[catposts cat-name="post-category-name"]</center></pre>
 <p>The above shortcode should be added to the page,where you want to display posts from a particular category say <i><b>Sports</b></i> in a news portal</p>
