@@ -19,14 +19,11 @@ and got the display as below, <br><br>
 <h3>Adding Custom Field Data to the last column of the table:</h3>
  <b>Replace the code</b>
  ```
- <pre> <code>
  <td>Not Set</td>
  </tr>';
-
- </code></pre>
- 
+```
  with the below code
-<pre><br><code>
+```
  ';?> <td>//start 
 	```
 	<?php 
@@ -38,6 +35,6 @@ and got the display as below, <br><br>
 		?></td>
          <?php echo '</tr>'; //end 
 	
-	<br></code></pre><br>
+	```
     
          
