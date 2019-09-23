@@ -24,17 +24,17 @@ and got the display as below, <br><br>
  </tr>';
 ```
 
-
+```php
  ';?> <td>//start 
-	```php
-	<?php 
-	 $custom = get_post_custom();
-	if(isset($custom['YOUR-CUSTOM-FIELD-NAME'])) 
-             echo $custom['YOUR-CUSTOM-FIELD-NAME'][0];
-	else 
-             echo 'Not Set';
-		?></td>
-         <?php echo '</tr>'; //end 
+  <?php  
+  $custom = get_post_custom();
+  if(isset($custom['YOUR-CUSTOM-FIELD-NAME'])) 
+  echo $custom['YOUR-CUSTOM-FIELD-NAME'][0];
+  else 
+  echo 'Not Set';
+  ?></td>
+  <?php echo '</tr>'; //end 
+```  
 	
 	```
     
