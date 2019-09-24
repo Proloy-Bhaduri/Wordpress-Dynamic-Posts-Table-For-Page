@@ -4,9 +4,10 @@
 #License : Apache License ,Version 2.0
 function catposts_shortcode( $atts ) {
    $a = shortcode_atts( array(
-      'cat-name' => 'world'
+      'cat-name' => 'world',
+      'posts-count' => -1
    ), $atts );
-   $catpost_query = new WP_Query(array('category_name'=>$a['cat-name'],));
+   $catpost_query = new WP_Query(array('category_name'=>$a['cat-name'],'posts_per_page'=>$a['posts-count']));
     $num = $catpost_query->found_posts;?>
      <table class="striped centered">
         <thead>
