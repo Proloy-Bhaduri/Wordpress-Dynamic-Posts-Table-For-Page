@@ -4,7 +4,8 @@ Wordpress Dynamic Posts Table is an wordpress plugin using which bloggers can li
 <pre><center>[catposts cat-name="post-category-name"]</center></pre>
 <p>The above shortcode should be added to the page,where you want to display posts from a particular category say <b>Sports</b> in a news portal</p>
 <pre><center>[catposts cat-name="Sports"]</center></pre>
-<h6>Dependencies</h6>
+ If you want a certain number of posts to be displayed in a particular page then mention the posts count as illustrated below <br>
+ <pre><center>[catposts cat-name="Sports" posts-count="12"]</center></pre>h6>Dependencies</h6>
  to get striped and centered table include <pre>materializecss.min.css</pre> to the head  of your page .
  To enable the shortcode goto the <b>functions.php</b> of your theme and add this code <pre>include( get_stylesheet_directory() . '/dynamicposts.php' );</pre> <br>
  upload this <b>dynamicposts.php</b> file to root folder of your website's currently active theme  .
