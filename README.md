@@ -25,7 +25,7 @@ and got the display as below, <br><br>
  <td>Not Set</td>
  </tr>';
 ```
- By the below code -->
+ By the below code &dArr;
 ```php
  ';?> <td>//start 
   <?php  
